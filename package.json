@@ -1,9 +1,9 @@
 {
   "name": "coinflip-divination",
   "private": true,
-  "description": "A simple site for divination via coins",
+  "description": "A simple gatsby site for divination via coinflip",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "BSD0",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
