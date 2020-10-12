@@ -6,6 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/coinflip",
+  pathPrefix: "/coinflip-divination",
   plugins: [],
 }
