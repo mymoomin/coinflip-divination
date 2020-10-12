@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-coinholder {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: auto;
+  width: min(1000px, 100%);
+  position: relative;
+  margin: auto;
+
+  align-items: stretch;
+}
+
+.Coins {
+  display: flex;
+
+
+  box-orient: horizontal;
+  flex-direction: row;
+
+
+  box-pack: center;
+  justify-content: center;
+
+
+  box-align: center;  
+  align-items: center;
+
+  background-color: white;
+
+  padding: 0;
+  list-style-type: none;
+
+  list-style: none inside;
+}
+
+.Coin-li {
+  flex: 1 1 auto; 
+
+  padding: 10px;
+  margin: 10px;
+
+  background-color: white;
+  border: 1px solid white;
+  text-align: center;
+  
+  list-style: none inside;
+}
+
+.Coin-img {
+  max-width:100%;
+  max-height: 10vw;
+}
+
+button {
+  font-size: 2rem;
+}
